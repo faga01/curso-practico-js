@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleCuadrado.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <script src="https://kit.fontawesome.com/2114db58e0.js" crossorigin="anonymous"></script>
+    <title>Figuras Geométricas</title>
+</head>
+<body>
+    <header class="title-home">
+        <h1>
+            Haz tus cálculos
+        </h1>
+    </header>
+
+    <section class="container-calc">
+        <div class="calculator">
+            <div class="container-figure">
+                <h2 class="title-calc">El Cuadrado</h2>
+                <a href=""><img src="./images/cuadrado5.png" alt=""></a>
+                
+            </div>
+            <div class="container-form">
+                <form class="calc-form" action="">
+                    <div>
+                        <label for="inputCuadradoLado">Lado:</label>
+                        <input id="inputCuadradoLado" type="number">
+                    </div>
+                    <br>
+                    <div class="button-section" onclick="calcularAreaCuadrado()">
+                        <button type="button">
+                            Calcular Área
+                        </button>
+                        <div>
+                            <p></p>
+                        </div>   
+                    </div>
+                    <div class="button-section" onclick="calcularPerimetroCuadrado()">
+                        <button type="button">
+                            Calcular Perímetro
+                        </button>
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="button-section">
+                        <button type="button" onclick="calcularDiagonalCuadrado()">
+                            Calcular Diagonal
+                        </button>
+                        <div>
+                            <p></p>
+                        </div>   
+                    </div>
+                    
+                </form>
+            </div>
+            
+
+        </div>
+        
+        
+    </section>
+
+    <footer class="footer-home">
+        <div class="footer-social">
+            <ul class="social-list">
+                
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+               
+            </ul>
+            <div class="footer-copy">
+                <p>Todos los derechos reservados - Fabian Gutiérrez.</p>    
+            </div>
+            
+        </div>
+        
+        
+    </footer>
+    
+    <!--<script src="./figuras.js"></script>-->
+    <script src="./js/figurasFunciones.js"></script>
+</body>
+</html>

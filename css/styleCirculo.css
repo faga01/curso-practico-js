@@ -1,0 +1,129 @@
+/* Inicio de estilos css*/
+
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --fuentePrincipal: sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+}
+
+/** Sección del título de la página**/
+
+.title-home {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+/* Estilos de la página del círculo */
+
+.container-calc {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    background: rgb(217, 224, 224);
+    width: 20rem;
+}
+
+
+.title-calc {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.container-figure {
+    text-align: center;
+}
+
+.container-figure img{
+    height: 6rem;
+    width: auto;   
+}
+
+/* Estilos del formulario del círculo */
+
+.container-form {
+    padding: 3rem 1.1rem 2rem;
+}
+
+.button-section {
+    padding: 4px;
+}
+
+
+
+/* sección footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.social-list li {
+    list-style :none;
+    margin-left: 30px;
+}
+
+.social-list li:first-child {
+ margin-left: 0;
+}
+
+.social-list li a {
+    text-decoration: none;
+}
+
+.fa-twitter, .fa-instagram, .fa-youtube, .fa-facebook {
+    font-size: 20px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: rgb(197, 19, 138);
+}
+
+.footer-copy {
+    text-align: center;
+    background: #d9e0e0;
+    padding: 0.5rem;
+}
+
+

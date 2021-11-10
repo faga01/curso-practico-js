@@ -1,0 +1,11 @@
+[33mcommit 3fc049a0d31f0cdde14ee9e66cec34f8aee256e4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: faga <faga01@gmail.com>
+Date:   Wed Nov 3 09:02:21 2021 -0500
+
+    Se añadió la carpeta .vscode al archivo .ignore
+
+[33mcommit 4e5da696d0373a1524c096b06d0db7ab16de721e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Fabian <faga01@gmail.com>
+Date:   Wed Nov 3 08:36:51 2021 -0500
+
+    Initial commit

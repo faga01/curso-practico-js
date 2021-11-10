@@ -1,0 +1,124 @@
+/* Inicio de estilos css*/
+
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --fuentePrincipal: sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+}
+
+/** Sección del título de la página**/
+
+.title-home {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+/* sección de escoger figura */
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-calc {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.calc-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    /* padding: 2rem 0 2rem 0; */
+    width: 40rem;   
+    background: rgb(217, 224, 224);
+}
+
+.container-figure{
+    border: 2px solid var(--blanco);
+    padding: 25px 0;
+    display: block;
+}
+
+.container-figure img{
+    height: 6rem;
+    width: auto;   
+}
+
+.container-figure:hover {
+    background: linear-gradient(to bottom, rgb(237, 243, 243), rgb(217, 224, 224));
+}
+
+.container-figure img:hover {
+    height: 6.5rem;
+    width: auto;
+}
+
+/* sección footer */
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    position: absolute;
+    width: 100%;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.social-list li {
+    list-style :none;
+    margin-left: 30px;
+}
+
+.social-list li:first-child {
+ margin-left: 0;
+}
+
+.social-list li a {
+    text-decoration: none;
+}
+
+.fa-twitter, .fa-instagram, .fa-youtube, .fa-facebook {
+    font-size: 20px;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-instagram {
+    color: rgb(197, 19, 138);
+}
+
+.footer-copy {
+    text-align: center;
+    background: #d9e0e0;
+    padding: 0.5rem;
+}
+
+
+
